@@ -50,6 +50,15 @@
         };
     };
 
+    macros {
+        runumero: runumero {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RU_NUMERO>;
+            label = "RUNUMERO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
