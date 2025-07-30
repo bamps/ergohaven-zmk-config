@@ -28,6 +28,26 @@
             bindings = <&kp DELETE>;
             key-positions = <10 11>;
         };
+
+        dog {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <1 2>;
+        };
+
+        hash {
+            bindings = <&kp POUND>;
+            key-positions = <2 3>;
+        };
+
+        ru_num {
+            bindings = <&kp RU_NUMERO>;
+            key-positions = <24 3>;
+        };
+
+        equal {
+            bindings = <&kp KP_EQUAL>;
+            key-positions = <10 22>;
+        };
     };
 
     keymap {
