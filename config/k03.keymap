@@ -39,14 +39,14 @@
             key-positions = <2 3>;
         };
 
-        ru_num {
-            bindings = <&kp RU_NUMERO>;
-            key-positions = <3 15>;
-        };
-
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <10 22>;
+        };
+
+        num_ru {
+            bindings = <&runumero>;
+            key-positions = <14 2>;
         };
     };
 
