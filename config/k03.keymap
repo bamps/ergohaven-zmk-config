@@ -21,6 +21,11 @@
             bindings = <&kp LG(SPACE)>;
             key-positions = <39 40>;
         };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <10 11>;
+        };
     };
 
     keymap {
