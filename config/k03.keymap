@@ -19,6 +19,11 @@
     combos {
         compatible = "zmk,combos";
 
+        lang_switch {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <39 40>;
+        };
+
         del {
             bindings = <&kp DELETE>;
             key-positions = <10 11>;
@@ -68,7 +73,7 @@
                 <&macro_wait_time 10>,
                 <&kp LT &kp V &kp O &kp I &kp D &kp GT &kp SPACE>,
                 <&macro_wait_time 10>,
-                <&kp LBRC &kp RBRC &kp LEFT &kp ENTER &kp LEFT &kt LCTRL &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kt LEFT_SHIFT &kp LEFT &kt LCTRL &kt LSHFT &kp>;
+                <&kp LBRC &kp RBRC &kp LEFT &kp ENTER &kp LEFT &kt LCTRL &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kt LEFT_SHIFT &kp LEFT &kt LCTRL &kt LSHFT>;
 
             label = "FUNC_TEMPLATE";
         };
