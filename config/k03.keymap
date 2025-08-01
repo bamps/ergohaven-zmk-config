@@ -28,7 +28,6 @@
             timeout-ms = <250>;
             bindings = <&kp AT_SIGN>;
             key-positions = <1 2>;
-            slow-release;
         };
 
         hash {
