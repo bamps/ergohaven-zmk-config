@@ -48,6 +48,11 @@
             bindings = <&runumero>;
             key-positions = <14 2>;
         };
+
+        oninit {
+            bindings = <&func_template>;
+            key-positions = <20 21 52>;
+        };
     };
 
     macros {
