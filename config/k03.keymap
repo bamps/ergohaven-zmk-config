@@ -25,16 +25,15 @@
         };
 
         dog {
-            timeout-ms = <250>;
+            timeout-ms = <20>;
             bindings = <&kp AT_SIGN>;
             key-positions = <1 2>;
         };
 
         hash {
-            timeout-ms = <250>;
+            timeout-ms = <20>;
             bindings = <&kp POUND>;
             key-positions = <2 3>;
-            slow-release;
         };
 
         equal {
