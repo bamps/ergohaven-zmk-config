@@ -92,12 +92,12 @@
 
             display-name = "Navigation";
             sensor-bindings =
-                <&inc_dec_kp RIGHT LEFT>,
-                <&inc_dec_kp RIGHT LEFT>,
-                <&inc_dec_kp RIGHT LEFT>,
-                <&inc_dec_kp RIGHT LEFT>,
-                <&inc_dec_kp RIGHT_ARROW LEFT>,
-                <&inc_dec_kp RIGHT LEFT>;
+                <&inc_dec_kp TAB LS(TAB)>,
+                <&inc_dec_kp TAB LS(TAB)>,
+                <&inc_dec_kp TAB LS(TAB)>,
+                <&inc_dec_kp TAB LS(TAB)>,
+                <&inc_dec_kp TAB LS(TAB)>,
+                <&inc_dec_kp TAB LS(TAB)>;
         };
 
         sym {
