@@ -25,11 +25,13 @@
         };
 
         dog {
+            timeout-ms = <100>;
             bindings = <&kp AT_SIGN>;
             key-positions = <1 2>;
         };
 
         hash {
+            timeout-ms = <100>;
             bindings = <&kp POUND>;
             key-positions = <2 3>;
         };
