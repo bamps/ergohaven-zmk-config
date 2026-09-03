@@ -114,11 +114,11 @@
             label = "FUNC_TEMPLATE";
         };
 
-        new_macro: new_macro {
+        ai_prompt: ai_prompt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&none>;
-            label = "NEW_MACRO";
+            label = "AI_PROMPT";
         };
     };
 
